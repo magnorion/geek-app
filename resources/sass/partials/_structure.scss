@@ -1,0 +1,22 @@
+body {
+    overflow-x: hidden;
+    background: url('/images/geek-bg.jpg')
+}
+
+#container-site {
+  background: #ddd
+}
+
+h3 {
+  font-family: 'Lobster' !important;
+  text-align: right;
+}
+
+#menuTop {
+    display: block;
+
+    li {
+        float: left;
+        margin-right: 10px;
+    }
+}
