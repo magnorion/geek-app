@@ -26,5 +26,6 @@
     <div id="container-site" class="container">
       @yield('conteudo')
     </div>
+    <script src="/js/app.js"></script>
   </body>
 </html>
