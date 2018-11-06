@@ -8,24 +8,7 @@
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container">
-        <ul id="menuTop" class="navbar-nav list-inline">
-          <li class="nav-item">
-            <a class="nav-link" href="/"> Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/marvel"> Marvel </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/star-wars"> Starwars </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div id="container-site" class="container">
-      @yield('conteudo')
-    </div>
+    @yield('conteudo')
     <script src="/js/app.js"></script>
   </body>
 </html>

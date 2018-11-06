@@ -11,10 +11,9 @@ class Personagem extends Marvel
     public function __construct($dado)
     {
         $this->dados = self::searchByName($dado);
-        $this->tk = time();
     }
 
-    static function searchByName($name)
+    public static function searchByName($name)
     {
         return ['name' => $name];
     }

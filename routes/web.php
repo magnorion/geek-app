@@ -12,5 +12,4 @@
 */
 
 Route::get('/', 'Home@index');
-Route::get('/marvel', 'Marvel@index');
-Route::get('/star-wars', 'StarWars@index');
+Route::get('/heroi', 'Heroi@get');

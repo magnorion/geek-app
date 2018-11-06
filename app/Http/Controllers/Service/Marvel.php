@@ -12,14 +12,14 @@ class Marvel extends Service
 
     public function search()
     {
+        $this->ts = time();
         $query = [
             'ts' => $this->ts,
-            'name'=> 'thor',
             'apikey' => $this->tk_public,
             'hash' => md5($this->ts.$this->tk_private.$this->tk_public)
         ];
         $query = array_merge($query, $this->dados);
 
-        dd($this->get($query));
+        return $this->get($query);
     }
 }
