@@ -27,7 +27,7 @@ export default {
       if (this.nome === '') return false;
       const self = this
 
-      axios.get('/heroi', {params: {nome: self.nome}})
+      axios.get('/api/heroi', {params: {nome: self.nome}})
         .then(res => console.log(self.setHeroi(res.data)))
         .catch(err => console.log(err))
     },

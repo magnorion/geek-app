@@ -10,6 +10,6 @@ class Heroi extends Controller
     public function get(Request $data)
     {
         $app = new Personagem($data->input('nome'));
-        return json_encode($app->search());
+        return response()->json($app->search());
     }
 }

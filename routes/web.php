@@ -12,4 +12,3 @@
 */
 
 Route::get('/', 'Home@index');
-Route::get('/heroi', 'Heroi@get');
