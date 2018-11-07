@@ -48132,6 +48132,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -48424,6 +48425,12 @@ var render = function() {
       { staticClass: "mt-2", attrs: { id: "equipe-holder" } },
       [
         _c("h3", { staticClass: "title" }, [_vm._v(" Equipe ")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "title" }, [
+          _vm._v(
+            " Você pode escolher os herois para proteger a terra ou escolher os vilões e conquistar tudo! "
+          )
+        ]),
         _vm._v(" "),
         _c("heroi-component", { attrs: { heroi: _vm.hero } })
       ],

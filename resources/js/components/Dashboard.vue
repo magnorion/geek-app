@@ -13,6 +13,7 @@
     </div>
     <div id="equipe-holder" class="mt-2">
       <h3 class="title"> Equipe </h3>
+      <p class="title"> Você pode escolher os herois para proteger a terra ou escolher os vilões e conquistar tudo! </p>
       <heroi-component :heroi="hero"></heroi-component>
     </div>
   </div>
